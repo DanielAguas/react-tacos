@@ -43,7 +43,6 @@ function Menu() {
 
   return (
     <div className="menu-container">
-      <h2>Menú</h2>
       {menu.map(platillo => (
         <Platillo
           key={platillo.id}

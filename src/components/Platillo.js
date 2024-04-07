@@ -5,7 +5,7 @@ const Platillo = (props) => {
     <div className="platillo">
       <h3>{props.tipo}</h3>
       <p>{props.descripcion}</p>
-      <p>Precio: ${props.precio}</p>
+      <h3>Precio: ${props.precio}</h3>
     </div>
   );
 }
