@@ -1,12 +1,13 @@
 import "../styles/menu.css";
+import Card from "./Card";
 
 const Platillo = (props) => {
   return (
-    <div className="platillo">
-      <h3><strong>{props.tipo}</strong></h3>
+    <Card className="platillo">
+      <h2><strong>{props.tipo}</strong></h2>
       <p><em>{props.descripcion}</em></p>
-      <h3>Precio: <strong style = {{color: 'red' }}>${props.precio}</strong></h3>
-    </div>
+      <h5>Precio c/u: <strong style = {{color: 'red' }}>${props.precio}</strong></h5>
+    </Card>
   );
 }
 
