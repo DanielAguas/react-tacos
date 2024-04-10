@@ -64,7 +64,7 @@ nav{
     position: relative;
     width: auto;
     margin: 0 16px;
-    text-align: right;
+    text-align: center;
     order: 3;
   }
   nav ul li.items:after{
@@ -95,6 +95,7 @@ nav{
     font-size: 18px;
     text-decoration: none;
     transition: .4s;
+    align-items: center;
   }
   nav ul li:hover a{
     color: var(--color-terciario);
